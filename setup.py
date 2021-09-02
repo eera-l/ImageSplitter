@@ -7,9 +7,9 @@ setup(
   description = 'A small utility to split sprites into single images.',
   author = 'Federica Comuni',
   author_email = 'federica.comuni@gmail.com',
-  url = 'https://github.com/eera-l',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',
-  keywords = ['SOME', 'MEANINGFULL', 'KEYWORDS'],   # Keywords that define your package best
+  url = 'https://github.com/eera-l',
+  download_url = 'https://github.com/eera-l/ImageSplitter/archive/refs/tags/v_01.tar.gz',
+  keywords = ['python', 'image-processing'],
   install_requires=[
           'matplotlib',
           'numpy',
