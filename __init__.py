@@ -1,0 +1,1 @@
+from image_splitter import split_chunks
