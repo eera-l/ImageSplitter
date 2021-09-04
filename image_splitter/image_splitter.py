@@ -3,14 +3,14 @@ import numpy as np
 import os
 
 
-def split_chunks(filepath: str, img_size: int = 64, step: int = 0,
-                 output_directory: str = 'extracted_images/') -> None:
+def split_image(filepath: str, img_size: int = 64, step: int = 0,
+                output_directory: str = 'extracted_images/') -> None:
     """
     Splits an image sprite into single images.
-    :param filepath: Path of the file of the sprite. Width and height must
-                     be multiples of the step.
+    :param filepath: Path of the sprite file. Width and height must
+                     be multiples of img_size + step.
     :param img_size: Size of the images to be extracted.
-    :param step: Step in between images, if there is some blank space between them.
+    :param step: Step between images, if there is some blank space between them.
     :param output_directory: Directory to save the extracted images in.
     """
     img = image.imread(filepath)
