@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'image_splitter',
   packages = ['image_splitter'],
-  version = '1.1',
+  version = '1.2',
   license='MIT',
   description = 'A small utility to split sprites into single images.',
   author = 'Federica Comuni',
   author_email = 'federica.comuni@gmail.com',
   url = 'https://github.com/eera-l',
-  download_url = 'https://github.com/eera-l/ImageSplitter/archive/refs/tags/v1.1.tar.gz',
+  download_url = 'https://github.com/eera-l/ImageSplitter/archive/refs/tags/v1.2.tar.gz',
   keywords = ['python', 'image-processing'],
   install_requires=[
           'matplotlib',
