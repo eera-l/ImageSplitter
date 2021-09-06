@@ -10,7 +10,10 @@ Split a collection of images into single images. <br>
 Usage:
 ```
 pip install image_splitter
+```
 
+```
+import image_splitter
 
 image_splitter.split_image(filepath='sheet_twitter_64.png', img_size=64, step=2)
 ```
